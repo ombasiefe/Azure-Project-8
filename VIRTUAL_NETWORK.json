@@ -1,0 +1,62 @@
+{
+    "name": "multisoftwarevirtualnetwork",
+    "id": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/resourceGroups/Multisoftwareresourcegroup/providers/Microsoft.Network/virtualNetworks/multisoftwarevirtualnetwork",
+    "etag": "W/\"00fb9c09-ec6e-4a24-a7f5-786e1b3ab657\"",
+    "type": "Microsoft.Network/virtualNetworks",
+    "location": "northeurope",
+    "tags": {
+        "multisoftwareenterpr": "Vnetwork"
+    },
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "97843336-0fb1-43dd-ab4d-9130e2badf50",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.0.0.0/16"
+            ]
+        },
+        "encryption": {
+            "enabled": false,
+            "enforcement": "AllowUnencrypted"
+        },
+        "subnets": [
+            {
+                "name": "AzureFirewallSubnet",
+                "id": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/resourceGroups/Multisoftwareresourcegroup/providers/Microsoft.Network/virtualNetworks/multisoftwarevirtualnetwork/subnets/AzureFirewallSubnet",
+                "etag": "W/\"00fb9c09-ec6e-4a24-a7f5-786e1b3ab657\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.0.1.0/26"
+                    ],
+                    "ipConfigurations": [
+                        {
+                            "id": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/resourceGroups/MULTISOFTWARERESOURCEGROUP/providers/Microsoft.Network/azureFirewalls/MULTISOFTWAREVIRTUALNETWORK-FIREWALL/azureFirewallIpConfigurations/IPCONFIG"
+                        }
+                    ],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            },
+            {
+                "name": "AppServicesSubnet",
+                "id": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/resourceGroups/Multisoftwareresourcegroup/providers/Microsoft.Network/virtualNetworks/multisoftwarevirtualnetwork/subnets/AppServicesSubnet",
+                "etag": "W/\"00fb9c09-ec6e-4a24-a7f5-786e1b3ab657\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefixes": [
+                        "10.0.2.0/24"
+                    ],
+                    "delegations": [],
+                    "privateEndpointNetworkPolicies": "Disabled",
+                    "privateLinkServiceNetworkPolicies": "Enabled"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ],
+        "virtualNetworkPeerings": [],
+        "enableDdosProtection": false
+    }
+}

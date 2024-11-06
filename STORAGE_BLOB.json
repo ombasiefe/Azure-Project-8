@@ -1,0 +1,72 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/resourceGroups/Multisoftwareresourcegroup/providers/Microsoft.Storage/storageAccounts/multisoftwarestorageblob",
+    "name": "multisoftwarestorageblob",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "northeurope",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2024-11-06T16:03:43.3176891Z",
+            "key2": "2024-11-06T16:03:43.3176891Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "largeFileSharesState": "Enabled",
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-11-06T16:03:43.3333160Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-11-06T16:03:43.3333160Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2024-11-06T16:03:43.2083134Z",
+        "primaryEndpoints": {
+            "dfs": "https://multisoftwarestorageblob.dfs.core.windows.net/",
+            "web": "https://multisoftwarestorageblob.z16.web.core.windows.net/",
+            "blob": "https://multisoftwarestorageblob.blob.core.windows.net/",
+            "queue": "https://multisoftwarestorageblob.queue.core.windows.net/",
+            "table": "https://multisoftwarestorageblob.table.core.windows.net/",
+            "file": "https://multisoftwarestorageblob.file.core.windows.net/"
+        },
+        "primaryLocation": "northeurope",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "westeurope",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://multisoftwarestorageblob-secondary.dfs.core.windows.net/",
+            "web": "https://multisoftwarestorageblob-secondary.z16.web.core.windows.net/",
+            "blob": "https://multisoftwarestorageblob-secondary.blob.core.windows.net/",
+            "queue": "https://multisoftwarestorageblob-secondary.queue.core.windows.net/",
+            "table": "https://multisoftwarestorageblob-secondary.table.core.windows.net/"
+        }
+    }
+}

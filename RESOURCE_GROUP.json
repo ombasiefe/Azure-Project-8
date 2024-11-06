@@ -1,0 +1,12 @@
+{
+    "id": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/resourceGroups/Multisoftwareresourcegroup",
+    "name": "Multisoftwareresourcegroup",
+    "type": "Microsoft.Resources/resourceGroups",
+    "location": "northeurope",
+    "tags": {
+        "multisoftwareenterpr": "resource"
+    },
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}

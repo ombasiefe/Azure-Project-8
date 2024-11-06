@@ -1,0 +1,65 @@
+{
+    "sku": {
+        "name": "Standard_ZRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/resourceGroups/Multisoftwareresourcegroup/providers/Microsoft.Storage/storageAccounts/archievestorage24",
+    "name": "archievestorage24",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "northeurope",
+    "tags": {
+        "multisoftwareenterpr": "archive"
+    },
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2024-11-06T16:30:15.5852506Z",
+            "key2": "2024-11-06T16:30:15.5852506Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "largeFileSharesState": "Enabled",
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-11-06T16:30:15.5852506Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-11-06T16:30:15.5852506Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2024-11-06T16:30:15.4758753Z",
+        "primaryEndpoints": {
+            "dfs": "https://archievestorage24.dfs.core.windows.net/",
+            "web": "https://archievestorage24.z16.web.core.windows.net/",
+            "blob": "https://archievestorage24.blob.core.windows.net/",
+            "queue": "https://archievestorage24.queue.core.windows.net/",
+            "table": "https://archievestorage24.table.core.windows.net/",
+            "file": "https://archievestorage24.file.core.windows.net/"
+        },
+        "primaryLocation": "northeurope",
+        "statusOfPrimary": "available"
+    }
+}

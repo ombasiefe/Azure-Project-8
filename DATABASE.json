@@ -1,0 +1,44 @@
+{
+    "sku": {
+        "name": "GP_Gen5",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 2
+    },
+    "kind": "v12.0,user,vcore",
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 107374182400,
+        "status": "Online",
+        "databaseId": "1bcfcbfb-e76a-4e0c-9f65-86989f9280f1",
+        "creationDate": "2024-11-06T15:55:22.957Z",
+        "currentServiceObjectiveName": "GP_Gen5_2",
+        "requestedServiceObjectiveName": "GP_Gen5_2",
+        "defaultSecondaryLocation": "westeurope",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": true,
+        "licenseType": "LicenseIncluded",
+        "maxLogSizeBytes": 193273528320,
+        "earliestRestoreDate": "2024-11-06T15:56:59Z",
+        "readScale": "Disabled",
+        "currentSku": {
+            "name": "GP_Gen5",
+            "tier": "GeneralPurpose",
+            "family": "Gen5",
+            "capacity": 2
+        },
+        "currentBackupStorageRedundancy": "Zone",
+        "requestedBackupStorageRedundancy": "Zone",
+        "maintenanceConfigurationId": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default",
+        "isLedgerOn": false,
+        "isInfraEncryptionEnabled": false,
+        "availabilityZone": "NoPreference"
+    },
+    "location": "northeurope",
+    "tags": {
+        "multisoftwareenterpr": "database"
+    },
+    "id": "/subscriptions/7aa1b03e-2cf2-4818-9c72-31cf715475f2/resourceGroups/Multisoftwareresourcegroup/providers/Microsoft.Sql/servers/multisoftserver/databases/multisoftdb",
+    "name": "multisoftdb",
+    "type": "Microsoft.Sql/servers/databases"
+}
